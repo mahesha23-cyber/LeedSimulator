@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LeedSimulator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 0; 
+      background: #f6f8fa;
+    }
+    .container {
+      max-width: 700px;
+      margin: 60px auto;
+      background: #fff;
+      padding: 40px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+      text-align: center;
+    }
+    h1 { color: #1a73e8; }
+    .desc { color: #444; margin: 20px 0; }
+    .github-link {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 28px;
+      background: #24292e;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: background 0.2s;
+    }
+    .github-link:hover { background: #1a1d21; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>LeedSimulator</h1>
+    <div class="desc">
+      <p>
+        Welcome to the <b>LeedSimulator</b> project!<br>
+        This repository provides a simulation environment for LEED-related scenarios using JavaScript.
+      </p>
+      <p>
+        Explore, contribute, and learn more about how this project can help in simulating environmental building standards!
+      </p>
+    </div>
+    <a href="https://github.com/mahesha23-cyber/LeedSimulator" class="github-link" target="_blank">
+      View on GitHub
+    </a>
+  </div>
+</body>
+</html>
