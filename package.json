@@ -1,1 +1,8 @@
 "homepage": "https://mahesha23-cyber.github.io/LeedSimulator"
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "start": "react-scripts start",
+  "build": "react-scripts build"
+}
+
